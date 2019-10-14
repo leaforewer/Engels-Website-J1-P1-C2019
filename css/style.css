@@ -1,12 +1,41 @@
-*{
+body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 nav{
     display: flex;
-    justify-content: space-around;
+    
     align-items: center;
     min-height: 8vh;
+    background-color: #B0B8B4FF;
     font-family: 'Poppins', sans-serif;
+}
+.logo h4{
+    color: #FC766AFF;
+    justify-content: space-around;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.navbar-links{
+    display: flex;
+    
+    width: 30%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: #184A45FF;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.burger div{
+    width: 25px;
+    height: 5px;
+    color: #184A45FF;
+    margin: 5px;
 }
