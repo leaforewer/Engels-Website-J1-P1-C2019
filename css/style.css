@@ -5,7 +5,6 @@ body{
 }
 nav{
     display: flex;
-    
     align-items: center;
     min-height: 8vh;
     background-color: #B0B8B4FF;
@@ -17,6 +16,9 @@ nav{
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
+    display: flex;
+    align-items: inherit;
+    font-family: 'Popping', sans-serif;
 }
 .navbar-links{
     display: flex;
