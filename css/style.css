@@ -10,15 +10,13 @@ nav{
     background-color: #B0B8B4FF;
     font-family: 'Poppins', sans-serif;
 }
-.logo h4{
+.navbar-brand h4{
     color: #FC766AFF;
     justify-content: space-around;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
-    display: flex;
-    align-items: inherit;
-    font-family: 'Popping', sans-serif;
+    text-align: left;
 }
 .navbar-links{
     display: flex;
@@ -28,7 +26,7 @@ nav{
 .nav-links li{
     list-style: none;
 }
-.nav-links a{
+.nav-navbar a{
     color: #184A45FF;
     text-decoration: none;
     letter-spacing: 3px;
